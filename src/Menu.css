@@ -1,0 +1,5 @@
+.menu{
+    background-color: gray;
+    grid-column: 1/3;
+    grid-row: 2/11;
+}

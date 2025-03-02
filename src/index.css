@@ -4,7 +4,10 @@ body{
     margin: 0px;
 }
 #root{
-    background-color: rgb(59, 138, 249);
     margin: 0px;
     color: white;
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
 }
