@@ -1,2 +1,1 @@
-# portfolio-react
-Making a personal web with react
+# Personal web with react!
