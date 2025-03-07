@@ -1,15 +1,15 @@
 .header {
-  background-color: rgb(71, 143, 251);
+  background-color: #0D0D0D;
   font-style: italic;
   height: 100px;
   align-items: center;
-  fill: white;
+  fill: #F2F2F2;
   display: grid;
   grid-template-columns: 100px minmax(300px, 1fr) 100px;
   grid-column: 1/11;
   grid-row: 1/2;
 }
 .git:hover {
-  background-color: black;
+  background-color: #727372;
   border-radius: 40%;
 }
