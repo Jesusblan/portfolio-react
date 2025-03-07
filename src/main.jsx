@@ -1,12 +1,11 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import Header from './App.jsx'
-import Menu from './Menu.jsx'
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import Header from "./components/App.jsx";
+import Menu from "./components/Menu.jsx";
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+createRoot(document.getElementById("root")).render(
+  <>
     <Header />
     <Menu />
-  </StrictMode>,
-)
+  </>,
+);
