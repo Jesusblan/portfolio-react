@@ -17,8 +17,6 @@ body {
 #root {
   margin: 0px;
   color: white;
-
-  display: grid;
-  grid-template-columns: repeat(10, minmax(100px, 1fr));
-  grid-template-rows: 100px repeat(6, minmax(100px, 1fr));
+  height: 100vh;
+  width: 100%;
 }
