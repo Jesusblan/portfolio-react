@@ -1,0 +1,10 @@
+.header {
+  background-color: #041626;
+  height: 100px;
+  color: #38a640;
+
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  align-items: center;
+  justify-items: center;
+}
