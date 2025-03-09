@@ -10,7 +10,6 @@ export default function Header() {
   }
 
   function DropMenu() {
-    document.addEventListener("mousedown", () => setMenu(false));
     const [isMenu, setMenu] = useState(false);
 
     if (isMenu === false) {
@@ -20,9 +19,9 @@ export default function Header() {
         <>
           <Icon onClick={() => setMenu(false)} path={mdiMenu} size={2} />
           <div className="dropMenu">
-            <button>Home</button>
-            <button>Proyectos</button>
-            <button>CV</button>
+            <button onClick={() => setMenu(false)}>Home</button>
+            <button onClick={() => setMenu(false)}>Proyectos</button>
+            <button onClick={() => setMenu(false)}>CV</button>
           </div>
         </>
       );
