@@ -8,30 +8,29 @@
   align-items: center;
   justify-items: center;
 }
-.dropMenu{
-    position: absolute;
-    left: 0;
-    top:100px;
-    background-color: #041626;
-    width: 150px;
-    align-items: center;
-    border-color: #38a640;
-    border-width: 3px;
-    border-style: solid;
+.dropMenu {
+  position: absolute;
+  left: 0;
+  top: 100px;
+  background-color: #041626;
+  width: 150px;
+  align-items: center;
+  border-color: #38a640;
+  border-width: 3px;
+  border-style: solid;
 
-
-    display: grid;
-    grid-template-rows: repeat(3, 100px);
+  display: grid;
+  grid-template-rows: repeat(3, 100px);
 }
-.dropMenu button{
-    background-color: #041626;
-    color: #38a640;
-    height: 70%;
-    text-align: left;
-    font-size: 1.5rem;
-    border-style: none;
-    padding-left: 10px;
+.dropMenu button {
+  background-color: #041626;
+  color: #38a640;
+  height: 70%;
+  text-align: left;
+  font-size: 1.5rem;
+  border-style: none;
+  padding-left: 10px;
 }
-.dropMenu button:hover{
-    text-shadow: 0px 0px 5px #38a640;
+.dropMenu button:hover {
+  text-shadow: 0px 0px 5px #38a640;
 }
