@@ -10,6 +10,7 @@ export default function Header() {
   }
 
   function DropMenu() {
+    document.addEventListener("mousedown", () => setMenu(false));
     const [isMenu, setMenu] = useState(false);
 
     if (isMenu === false) {
