@@ -1,17 +1,19 @@
 .info {
-  color: #38a640;
-  background-color: #041626;
-
+  color: #E0E1DD;
+  background-color: #1B263B;
   padding-left: 5px;
-  width: 35%;
+  max-width: 400px;
+  min-width: 300px;
+  margin-left: 10%;
+  margin-top: 7%;
 
   display: grid;
   grid-template-rows: 40px 60px 30px;
   align-items: center;
 }
 .git {
-  color: white;
+  color: #778DA9;
 }
 .git:hover {
-  text-shadow: 0px 0px 5px #38a640;
+  text-shadow: 0px 0px 5px #E0E1DD;
 }

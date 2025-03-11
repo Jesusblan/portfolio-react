@@ -1,4 +1,14 @@
 .proyectos{
-    background-color: #041626;
-    color: #38a640;
+    background-color: #1B263B;
+    color: #E0E1DD;
+    max-width: 250px;
+    min-width: 200px;
+    margin-top: 5%;
+    margin-left: 50%;
+
+    display: grid;
+    grid-template-rows:repeat(5, 40px);
+    justify-items: center;
+    align-items: center;
+
 }
