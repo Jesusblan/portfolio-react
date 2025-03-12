@@ -1,24 +1,27 @@
 .info {
   color: #FAF5E9;
-  background-color: #009b4ebd;
   padding-left: 5px;
   max-width: 400px;
   min-width: 300px;
   margin-left: 10%;
   margin-top: 7%;
   border-radius: 15px;
+  
 
   display: grid;
-  grid-template-rows: 40px 60px 30px;
+  grid-template-rows: 50px 30px 60px 25px;
   align-items: center;
 }
   .info h1{
-    color: #FFCC00;
-    text-decoration: underline  ;
+    color: #01257D;
+    text-decoration: underline;
   }
 .git {
-  color: #FFCC00;
+  color: #00FFFF;
+  text-decoration: underline;
 }
 .git:hover {
-  text-shadow: 0px 0px 5px #E0E1DD;
+  text-shadow:0px 0px 3px #00FFFF;
+  cursor: pointer;
+  font-size: 1.1rem;
 }

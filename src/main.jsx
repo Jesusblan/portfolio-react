@@ -3,8 +3,7 @@ import "./index.css";
 import Header from "./components/Header";
 import Info from "./components/Info";
 import Proyects from "./components/Proyects";
-
-import background from "./assets/fondo.jpeg";
+import background from "./assets/fondo.jpg";
 
 export default function App() {
   return (

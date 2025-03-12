@@ -8,11 +8,8 @@ export default function Info() {
   return (
     <div className="info">
       <h1>Jesús Blanco</h1>
-
-      <p>
-        Desarrollador web con experiencia en JavasCript &#40;ReactJS&#41;, CSS y
-        HTML.
-      </p>
+      <p>ReactJS - JavaScript - CSS - HTML</p>
+      <p>Lorem ipsilum relleno wapo ahora me pienso que piner blabralbralbr seguro que se ma hace largo al final yatusabe bjabajabja eso mu bien</p>
       <p className="git" onClick={gitClick}>
         Echale un vistazo a mi GitHub!
       </p>
