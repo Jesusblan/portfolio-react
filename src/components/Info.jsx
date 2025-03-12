@@ -1,6 +1,8 @@
 import "../styles/Info.css";
 
 export default function Info() {
+
+    
   function gitClick() {
     window.location.href = "https://github.com/Jesusblan";
   }
