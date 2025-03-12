@@ -4,11 +4,11 @@ export default function Proyects(){
 
     return (
         <div className="proyectos">
-            <h3>Proyectos</h3>
-            <a href="">C.V Aplication</a>
-            <a href="">Wheater app</a>
-            <a href="">Restaurant page</a>
-            <a href="">Image Carousel</a>
+            <h2>Proyectos</h2>
+            <p href="">C.V Aplication</p>
+            <p href="">Wheater app</p>
+            <p href="">Restaurant page</p>
+            <p href="">Image Carousel</p>
         </div>
     );
 }

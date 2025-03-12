@@ -1,7 +1,7 @@
 .header {
-  background-color: #0D1B2A;
+  background-color: #009b4ebd;
   height: 100px;
-  color: #E0E1DD;
+  color: #FFCC00;
   min-width: 400px;
 
   display: grid;
@@ -13,7 +13,7 @@
   position: absolute;
   left: 0;
   top: 100px;
-  background-color: #041626;
+  background-color: #009b4e78;
   width: 150px;
   align-items: center;
 
@@ -21,8 +21,8 @@
   grid-template-rows: repeat(3, 100px);
 }
 .dropMenu button {
-  background-color: #041626;
-  color: #E0E1DD;
+  background-color: #009b4ebd;
+  color: #FAF5E9;
   height: 70%;
   text-align: left;
   font-size: 1.5rem;
@@ -30,5 +30,5 @@
   padding-left: 10px;
 }
 .dropMenu button:hover {
-  text-shadow: 0px 0px 5px #E0E1DD;
+  text-shadow: 0px 0px 5px #FAF5E9;
 }
