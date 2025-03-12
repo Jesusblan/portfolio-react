@@ -10,8 +10,9 @@ export default function Info() {
       <h1>Jesús Blanco</h1>
       <p>ReactJS - JavaScript - CSS - HTML</p>
       <p>
-        Lorem ipsilum relleno wapo ahora me pienso que piner blabralbralbr
-        seguro que se ma hace largo al final yatusabe bjabajabja eso mu bien
+        Desarrollador web especializado en ReactJS. Esta es mi página personal,
+        donde puedes conocer más sobre mis proyectos y habilidades. ¡Explora y
+        no dudes en contactarme!
       </p>
       <p className="git" onClick={gitClick}>
         Echale un vistazo a mi GitHub!
