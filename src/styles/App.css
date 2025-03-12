@@ -1,7 +1,6 @@
 .header {
-
   height: 100px;
-  color: #01257D;
+  color: #01257d;
   min-width: 400px;
 
   display: grid;
@@ -15,17 +14,16 @@
   top: 100px;
   width: 150px;
   align-items: center;
-  border: solid, #01257D;
+  border: solid, #01257d;
   border-radius: 15px;
   background-color: black;
-
 
   display: grid;
   grid-template-rows: repeat(3, 100px);
 }
 .dropMenu button {
   background-color: #01247d00;
-  color: #00FFFF;
+  color: #00ffff;
   height: 70%;
   text-align: left;
   font-size: 1.5rem;
@@ -33,10 +31,10 @@
   padding-left: 10px;
 }
 .dropMenu button:hover {
-  text-shadow:0px 0px 3px #00FFFF;
+  text-shadow: 0px 0px 3px #00ffff;
   cursor: pointer;
   font-size: 1.6rem;
 }
-svg:hover{
+svg:hover {
   cursor: pointer;
 }
