@@ -4,8 +4,9 @@ import { mdiMenu } from "@mdi/js";
 import { mdiGithub } from "@mdi/js";
 import { useState } from "react";
 import Info from "./Info";
-import Proyects from "./Proyects";
+import Projects from "./Projects";
 import Curriculum from "./Curriculum";
+import ProjectsCarousel from "./ProjectsCarousel.jsx";
 
 export default function App() {
   function gitClick() {
@@ -23,7 +24,7 @@ export default function App() {
           <Icon onClick={() => setMenu(false)} path={mdiMenu} size={2} />
           <div className="dropMenu">
             <button onClick={homeClick}>Home</button>
-            <button onClick={proyectsClick}>Proyectos</button>
+            <button onClick={projectsClick}>Proyectos</button>
             <button onClick={cvClick}>CV</button>
           </div>
         </>
@@ -32,24 +33,24 @@ export default function App() {
   }
 
   const [isHome, setHome] = useState(true);
-  const [isProyects, setProyects] = useState(false);
+  const [isProjects, setProjects] = useState(false);
   const [isCv, setCv] = useState(false);
 
   function homeClick() {
     setHome(true);
-    setProyects(false);
+    setProjects(false);
     setCv(false);
   }
 
-  function proyectsClick() {
+  function projectsClick() {
     setHome(false);
-    setProyects(true);
+    setProjects(true);
     setCv(false);
   }
 
   function cvClick() {
     setHome(false);
-    setProyects(false);
+    setProjects(false);
     setCv(true);
   }
 
@@ -58,17 +59,13 @@ export default function App() {
       return (
         <>
           <Info />
-          <Proyects />
+          <Projects />
         </>
       );
-    } else if (isProyects == true) {
-      return <h1>proyectos</h1>;
+    } else if (isProjects == true) {
+      return <ProjectsCarousel />;
     } else if (isCv == true) {
-      return (
-        <>
-          <Curriculum />
-        </>
-      );
+      return <Curriculum />;
     }
   }
 

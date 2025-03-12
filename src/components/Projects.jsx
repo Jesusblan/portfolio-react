@@ -1,6 +1,6 @@
-import "../styles/Proyects.css";
+import "../styles/Projects.css";
 
-export default function Proyects() {
+export default function Projects() {
   return (
     <div className="proyectos">
       <h2>Proyectos</h2>
