@@ -5,6 +5,7 @@ import { mdiGithub } from "@mdi/js";
 import { useState } from "react";
 import Info from "./Info";
 import Proyects from "./Proyects";
+import Curriculum from "./Curriculum";
 
 export default function App() {
   function gitClick() {
@@ -63,7 +64,11 @@ export default function App() {
     } else if (isProyects == true) {
       return <h1>proyectos</h1>;
     } else if (isCv == true) {
-      return <h1>Cv</h1>;
+      return (
+        <>
+          <Curriculum />
+        </>
+      );
     }
   }
 
