@@ -9,7 +9,7 @@ export default function Curriculum() {
         width="70%"
         height="90%"
         allow="autoplay"
-      ></iframe>{" "}
+      ></iframe>
     </div>
   );
 }
