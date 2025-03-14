@@ -27,8 +27,8 @@
   font-size: 1.1rem;
 }
 
-@media(max-width:600px){
-  .proyectos{
+@media (max-width: 600px) {
+  .proyectos {
     margin-left: 17%;
     margin-top: 17%;
   }

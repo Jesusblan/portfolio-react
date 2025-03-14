@@ -20,8 +20,4 @@ body {
   width: 100%;
 }
 
-@media(max-width: 600px){
-  body{
-    color: red;
-  }
-}
+

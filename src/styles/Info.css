@@ -25,9 +25,9 @@
   font-size: 1.1rem;
 }
 
-@media(max-width:600px){
-  .info{
-    margin:2%;
+@media (max-width: 600px) {
+  .info {
+    margin: 2%;
     justify-items: center;
     text-align: center;
   }
